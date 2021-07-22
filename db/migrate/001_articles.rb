@@ -12,6 +12,6 @@ class Articles < ActiveRecord::Migration
     end
  
     def self.down
-       drop_table :books
+       drop_table :articles
     end
  end
